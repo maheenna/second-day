@@ -13,7 +13,7 @@ const FormField: React.FC<FormFieldProps> = ({ imageSrc, placeholderText }) => {
     return (
       <div className="mt-5 mr-4">
         <div className="border-2 pl-3 rounded-md py-2 flex gap-4">
-          <Image src={imageSrc} alt="flight" height={200} width={200} className="w-[16px] h-[16px]" />
+          <Image src={imageSrc} alt="flight" height={16} width={16} />
           {/* Apply custom styles to input */}
           <input
             type="text"
