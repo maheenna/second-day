@@ -6,6 +6,7 @@ import flights from '/public/icons/flight.svg';
 import hotel from '/public/icons/hotel.svg';
 import cars from '/public/icons/cars.svg';
 import accessories from '/public/icons/accessories.svg';
+
 const NavClient = () => {
     const [activeOption, setActiveOption] = useState<string>('flights');
     const handleOptionClick = (option: string) => {
@@ -48,5 +49,5 @@ const NavClient = () => {
     );
 };
 
-export default NavClient;
+export default NavClient
 

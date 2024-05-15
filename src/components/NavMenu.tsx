@@ -1,4 +1,4 @@
-import NavClient from "./NavClient"
+import NavClient from './NavClient'
 const NavMenu = () => {
   return (
     <div>
